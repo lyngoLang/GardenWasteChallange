@@ -12,3 +12,5 @@ The main changes include:
 - Footer display logic: The footer container only appears once a skip has been selected, improving interface clarity and reducing clutter.
 
 - Process continuation logic: It is no longer mandatory to click the 'Continue' button in the footer. If a user clicks the already selected skip a second time, the process will automatically proceed, offering a more intuitive interaction
+
+Link to project: https://lyngolang.github.io/GardenWasteChallange/
