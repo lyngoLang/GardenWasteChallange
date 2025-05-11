@@ -2,9 +2,12 @@
   "name": "skip-selector",
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://lyngolang.github.io/GardenWasteChallange",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +18,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.0.0",
     "tailwindcss": "^3.0.0",
     "vite": "^4.0.0"
